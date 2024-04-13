@@ -101,13 +101,26 @@ footer {
 footer .email a {
   margin-bottom: 30px;
 
-  font-size: 24px;
+  font-size: 28px;
   color: black;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
 }
 footer .email a:hover {
   color: #6c63ff;
+}
+
+footer i {
+  margin: 20px;
+  color: #6c63ff;
+  font-size: 17px;
+  background: #f9f7fe;
+  padding: 10px;
+  border-radius: 30px;
+}
+footer i:hover {
+  color: #f9f7fe;
+  background: #6c63ff;
 }
 
 @media (max-width: 990px) {
